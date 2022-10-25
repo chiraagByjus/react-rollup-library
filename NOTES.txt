@@ -1,0 +1,21 @@
+ npx create-react-app storybook-demo
+ npm i storybook (try with npx once)
+
+ Create component and export it as a story 
+ And demo once on the storybook UI, by changing the heading 
+
+ npm i rollup 
+ npm install @babel/cli @babel/core @babel/preset-env @babel/preset-react @rollup/plugin-babel --save-dev
+ npm install rollup-plugin-styles autoprefixer --save-dev
+ 
+ npm run build:rollup 
+ ( Then show the dist folder and brief over the files )
+
+ Show the github workflow file and brief
+ Then go to github actions and show previous publish history and brief over the same
+
+ Then show the package on NPM registry and brief over the install cmd and versions
+
+ Keep video 6-9mins
+ 
+

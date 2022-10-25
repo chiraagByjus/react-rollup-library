@@ -1,0 +1,11 @@
+.card-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  min-width: 200px;
+  height:100%;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #FFF0D1;
+}
