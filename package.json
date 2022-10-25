@@ -1,6 +1,6 @@
 {
   "name": "@chiraagbyjus/react-rollup-library",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is a library of generic UI components",
   "main": "dist/index.umd.js",
   "peerDependencies": {
