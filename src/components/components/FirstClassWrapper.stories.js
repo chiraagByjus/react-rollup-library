@@ -11,5 +11,5 @@ const template = (args) => <FirstClassWrapper {...args} />;
 export const FirstClass = template.bind({});
 FirstClass.args = {
   headingText: "Card Heading",
-  color: "#FFF0D1",
+  color: "#5769f8",
 };
