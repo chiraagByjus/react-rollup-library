@@ -13,12 +13,12 @@ jobs:
       issues: write
       pull-requests: write
     runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 18
-    - run: npm ci --legacy-peer-deps
-    - run: npx semantic-release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci --legacy-peer-deps
+      - run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
