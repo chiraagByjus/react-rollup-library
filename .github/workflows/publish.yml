@@ -6,8 +6,6 @@ name: NPM publish
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: "*"
 
 jobs:
   publish:
@@ -43,7 +41,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - run: npm ci --legacy-peer-deps
       - run: npx semantic-release
         env:
